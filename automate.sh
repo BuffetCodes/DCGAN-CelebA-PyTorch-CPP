@@ -7,8 +7,6 @@ OUTPUT_F=build/output
 PATH_LIBTORCH_DIR=/root/libtorch
 PATH_LIBTORCH_BUILD=/root//libtorch/share/cmake/Torch/
 
-
-
 if [ -d $BUILD_F ] ; then
 	echo "build folder Already Present... !! skipping folder creation"
 else
